@@ -14,7 +14,7 @@ This folder contains the self-written function for applying a Missing Completly 
 In addition to this function, an example of the application of the imputation methods is also provided. Here *missForest*, *missRanger* and the *MICE* methods are applied to a ... dataset. For all other datasets, a similar procedure can be applied.  
 
 #### Installation 
-All R Packages 
+To introduce missing values, the package *missForest* is necessary. To apply the imputation methods, the packages *missRanger* and *mice* must also be loaded. 
 
 
 ## Application 
