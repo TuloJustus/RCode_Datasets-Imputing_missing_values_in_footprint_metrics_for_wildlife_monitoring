@@ -20,5 +20,5 @@ All R Packages
 ## Application 
 1. Download the datasets from the Datasets folder. 
 2. Start RStudio and install the R packages described in Installation. 
-3. Download the datasets from the R Codes folder Adding_MCAR. Apply the function as described in the comments in the R code.
+3. Download the datasets from the R Codes folder Adding_MCAR. Apply the function as described in the comments in the R code. Select the appropriate parameters.
 4. Impute the missing values in the same way as in the R code ... .   
