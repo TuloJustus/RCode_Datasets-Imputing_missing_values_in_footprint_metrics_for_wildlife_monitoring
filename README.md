@@ -15,3 +15,10 @@ In addition to this function, an example of the application of the imputation me
 
 #### Installation 
 All R Packages 
+
+
+## Application 
+1.
+2.
+3.
+4.
