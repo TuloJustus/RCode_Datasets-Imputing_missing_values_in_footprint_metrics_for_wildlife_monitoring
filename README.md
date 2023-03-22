@@ -4,21 +4,26 @@ This repository belongs to the paper "Imputing missing values in footprint metri
 
 ## Folder structure 
 ### Datasets
+#### Raw Datasets
 This folder contains all the original datasets used. All calculated variables are shown, which indicate in the name from which variables they are calculated.
 
-### Missing Patterns 
+#### Missing Patterns 
 This folder contains the Missing Patterns of the respective animals. The missing patterns indicate which variables depend on which landmark points. The correlation is binary coded; 1 corresponds to a correlation and 0 does not. Therefore, a missing value in one landmark point results in missing values in all dependent variables. 
 
 ### R Code 
 This folder contains the self-written function for applying a Missing Completly at Random (MCAR) algorithm for calculating missing values. The *Adding_MCAR* function randomly generates a certain proportion of missing values in the respective landmark points and then calculates all the residual missing values in the variables. In the project, different proportions of missing values in the landmark points were examined. For more details, please refer to the corresponding paper. 
-In addition to this function, an example of the application of the imputation methods is also provided. Here *missForest*, *missRanger* and the *MICE* methods are applied to a ... dataset. For all other datasets, a similar procedure can be applied.  
+In addition to this function, an example of the application of adding and imputing missing values also provided. As an example mean, missForst, mice pmm, mice rf and missRanger are applied to the Cheetah dataset with 10% missing landmarks. For all scenarios described in the paper, an analogous approach was taken. 
 
 #### Installation 
-To introduce missing values, the package *missForest* is necessary. To apply the imputation methods, the packages *missRanger* and *mice* must also be loaded. 
+TTo introduce missing values and apply the imputation methods, the packages *missMethods*, *missForest*, *mice* and *missRanger* must be loaded. 
 
 
 ## Application 
 1. Download the datasets from the **Datasets** folder. 
 2. Start RStudio and install the R packages described in **Installation**. 
 3. Download the datasets from the **R Codes** folder *Adding_MCAR*. Apply the function as described in the comments in the R code. Select the appropriate parameters.
-4. Impute the missing values in the same way as in the R code ... .   
+4. Impute the missing values in the same way as in the R code *Example_Imputation*.   
+
+
+## Note 
+The further procedure, i.e. in particular the application of the FIT model, was carried out in JMP. Frederick Kistner is available to answer any questions and provide further details. 
