@@ -15,7 +15,7 @@ This folder contains the self-written function for applying a Missing Completly 
 In addition to this function, an example of the application of adding and imputing missing values also provided. As an example mean, missForst, mice pmm, mice rf and missRanger are applied to the Cheetah dataset with 10% missing landmarks. For all scenarios described in the paper, an analogous approach was taken. 
 
 #### Installation 
-TTo introduce missing values and apply the imputation methods, the packages *missMethods*, *missForest*, *mice* and *missRanger* must be loaded. 
+To introduce missing values and apply the imputation methods, the packages *missMethods*, *missForest*, *mice* and *missRanger* must be loaded. 
 
 
 ## Application 
