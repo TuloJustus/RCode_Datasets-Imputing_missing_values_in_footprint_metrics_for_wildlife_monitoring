@@ -26,4 +26,4 @@ To introduce missing values and apply the imputation methods, the packages *miss
 
 
 ## Note 
-The further procedure, i.e. in particular the application of the FIT model, was carried out in JMP. Frederick Kistner is available to answer any questions and provide further details. 
+The further procedure, i.e. in particular the application of the FIT model, was carried out in JMP. Frederick Kistner is available to answer any questions and provide further details. The final results can be found in the Final Results folder in a csv file. The results described in the paper are based on these values.
