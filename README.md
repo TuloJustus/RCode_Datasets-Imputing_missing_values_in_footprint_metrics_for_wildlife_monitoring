@@ -1,6 +1,6 @@
 ## Project Overview
 
-This repository is associated with the research manuskript titled **"Keeping Track!: Monitoring Endangered Species with Footprint Identification Technology Enhanced by Missing Value Imputation."** The primary objective of this project is to assess the feasibility of incorporating Missing Value Imputation as a valuable data preprocessing step in the context of the established Footprint Identification Technology developed by Wildtrack ([Wildtrack Website](https://www.wildtrack.org/)). By introducing artificial missing values into five different datasets, we aimed to explore the potential of this approach and validate our findings on a new dataset containing real missing values.
+This repository is associated with the research manuscript titled **"Keeping Track!: Monitoring Endangered Species with Footprint Identification Technology Enhanced by Missing Value Imputation."** The primary objective of this project is to assess the feasibility of incorporating Missing Value Imputation as a valuable data preprocessing step in the context of the established Footprint Identification Technology developed by Wildtrack ([Wildtrack Website](https://www.wildtrack.org/)). By introducing artificial missing values into five different datasets, we aimed to explore the potential of this approach and validate our findings on a new dataset containing real missing values.
 
 ### The Significance of Missing Value Imputation
 
@@ -87,4 +87,4 @@ The script mentioned above uses default parameters for a Cheetah pairwise analys
 
 ### Data Processing Note
 
-Due to issues in an automation attempt, all FIT model runs have been conducted separately and manually. The raw metrics from the pairwise comparison model and the predicted number of animals were manually added to the results table. Target metrics were calculated as described in the manuskript.
+Due to issues in an automation attempt, all FIT model runs have been conducted separately and manually. The raw metrics from the pairwise comparison model and the predicted number of animals were manually added to the results table. Target metrics were calculated as described in the manuscript.
