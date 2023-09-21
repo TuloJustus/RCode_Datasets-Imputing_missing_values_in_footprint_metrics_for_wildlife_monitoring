@@ -1,9 +1,18 @@
-# RCode_Datasets-Imputing Missing Values in Footprint Metrics for Wildlife Monitoring
+## Project Overview
 
-This repository is associated with the research paper titled **"Keeping Track!: Monitoring Endangered Species with Footprint Identification
-Technology Enhanced by Missing Value Imputation"**. The aim of the project is the imputation of missing so-called landmark points in images of animal footprints. The imputation of missing points is necessary for the classification and identification of the footprints by calculating distances, angles, and areas of the landmark points. In total, the footprints of five different species originating from more than 100 individuals were examined. In each case, artificially missing values are generated in the present datasets and then imputed. All used datasets and R codes with self-written functions and examples are deposited in this repository. In addition, necessary snippets of the FIT Pairwise model are provided via Dropbox, and a manual of how to use FIT is given here.
+This repository is associated with the research paper titled **"Keeping Track!: Monitoring Endangered Species with Footprint Identification Technology Enhanced by Missing Value Imputation."** The primary objective of this project is to assess the feasibility of incorporating Missing Value Imputation as a valuable data preprocessing step in the context of the established Footprint Identification Technology developed by Wildtrack ([Wildtrack Website](https://www.wildtrack.org/)). By introducing artificial missing values into five different datasets, we aimed to explore the potential of this approach and validate our findings on a new dataset containing real missing values.
 
-## Folder Structure
+### The Significance of Missing Value Imputation
+
+The imputation of missing landmark points is a crucial step in the classification and identification of animal footprints, as it enables the calculation of distances, angles, and areas of these points. In this study, we examined the footprints of five different species, comprising data from over 100 individual animals. For each species, we intentionally introduced artificial missing values into the existing datasets and subsequently applied imputation techniques to recover these missing data points.
+
+### Repository Contents
+
+Within this repository, you will find all the datasets used in our research, along with the R code containing self-written functions and illustrative examples. These resources are made available to facilitate further exploration and experimentation in the field of wildlife monitoring through footprint analysis.
+
+### FIT Pairwise Model Snippets
+
+To aid in the practical application of the FIT (Footprint Identification Technology) Pairwise model, essential code snippets are provided via Dropbox. Additionally, a comprehensive manual on how to utilize FIT is included, offering step-by-step guidance for those interested in implementing this technology.
 
 ### Datasets
 
