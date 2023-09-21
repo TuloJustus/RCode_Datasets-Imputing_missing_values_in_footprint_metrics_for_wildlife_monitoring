@@ -38,5 +38,17 @@ The further procedure, i.e. in particular the application of the FIT model, was 
 https://www.jove.com/de/v/54034/spotting-cheetahs-identifying-individuals-by-their-footprints
 4.40 -6.57 Running of Pairwise Comparison Model
 
+
+## Model Parameters per species
+| Species (latin name) | No. of variables | Counter probability | Wards cut-off distance |
+|-----------------------|------------------|--------------------|-----------------------|
+| Amur Tiger (*Panthera tigris altaica*) | 18 | 0.50 | 1.95 |
+| Cheetah (*Acinonyx jubatus*) | 18 | 0.50 | 1.90 |
+| Giant Panda (*Ailuropoda melanoleuca*) | 12 | 0.50 | 1.50 |
+| Mountain Lion (*Puma concolor*) | 18 | 0.50 | 1.90 |
+| White Rhino (*Ceratotherium simum*) | 12 | 0.50 | 1.95 |
+| Cheetah (experiment 2) | 18 | 0.50 | 1.90 |
+
+
 ## Extract target metrics and populate raw Results table
 
