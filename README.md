@@ -1,6 +1,6 @@
 ## Project Overview
 
-This repository is associated with the research manuscript titled **"Keeping Track!: Monitoring Endangered Species with Footprint Identification Technology Enhanced by Missing Value Imputation."** The primary objective of this project is to assess the feasibility of incorporating Missing Value Imputation as a valuable data preprocessing step in the context of the established Footprint Identification Technology developed by Wildtrack ([Wildtrack Website](https://www.wildtrack.org/)). By introducing artificial missing values into five different datasets, we aimed to explore the potential of this approach and validate our findings on a new dataset containing real missing values.
+This repository is associated with the research manuscript titled **"Keeping Track!: Monitoring Endangered Species with Footprint Identification Technology Enhanced by Missing Value Imputation."** The primary objective of this project is to assess the feasibility of incorporating Missing Value Imputation as a valuable data preprocessing step in the context of the established Footprint Identification Technology (FIT) developed by WildTrack ([WildTrack Website](https://www.wildtrack.org/)). By introducing artificial missing values into five different datasets, we aimed to explore the potential of this approach and validate our findings on a new dataset containing real missing values.
 
 ### The Significance of Missing Value Imputation
 
