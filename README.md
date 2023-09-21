@@ -5,9 +5,27 @@ This repository belongs to the paper "Imputing missing values in footprint metri
 ## Folder structure 
 ### Datasets
 #### Raw Datasets
-This folder contains all the original datasets used. All calculated variables are shown, which indicate in the name from which variables they are calculated.
+This folder contains all the original datasets used. All datasets but the data set "RealCheetah" have been previously published in scientific journals. Details on the used Morphometric Landmarks and the calculation of the derived meassurements can be found in the literature below. 
 
+ S. Alibhai, Z. Jewell, J. Evans, The challenge of monitoring elusive large carnivores: An accurate and
+cost-effective tool to identify and sex pumas (puma concolor) from footprints, PloS one 12 (3) (2017)
+e0172065.
 
+S. K. Alibhai, Z. C. Jewell, P. R. Law, A footprint technique to identify white rhino Ceratotherium
+simum at individual and species levels, Endangered Species Research 4 (1-2) (2008) 205–218.
+
+B. V. Li, S. Alibhai, Z. Jewell, D. Li, H. Zhang, Using footprints to identify and sex giant pandas,
+Biological Conservation 218 (2018) 83–90.
+
+ J. Gu, S. K. Alibhai, Z. C. Jewell, G. Jiang, J. Ma, Sex determination of amur tigers (Panthera tigris540
+altaica) from footprints in snow, Wildlife Society Bulletin 38 (3) (2014) 495–502.
+
+S. K. Alibhai, J. Gu, Z. C. Jewell, J. Morgan, D. Liu, G. Jiang, ‘i know the tiger by his paw’: A non-
+invasive footprint identification technique for monitoring individual amur tigers (panthera tigris altaica)
+in snow, Ecological Informatics (2022) 101947
+
+Z. C. Jewell, S. K. Alibhai, F. Weise, S. Munro, M. Van Vuuren, R. Van Vuuren, Spotting cheetahs:
+identifying individuals by their footprints, JoVE (Journal of Visualized Experiments) (111) (2016).
 
 #### Missing Patterns 
 This folder contains the Missing Patterns of the respective animals. The missing patterns indicate which variables depend on which landmark points. The correlation is binary coded; 1 corresponds to a correlation and 0 does not. Therefore, a missing value in one landmark point results in missing values in all dependent variables. 
