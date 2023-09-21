@@ -38,5 +38,51 @@ The further procedure, i.e. in particular the application of the FIT model, was 
 https://www.jove.com/de/v/54034/spotting-cheetahs-identifying-individuals-by-their-footprints
 4.40 -6.57 Running of Pairwise Comparison Model
 
+<table align="center">
+  <caption>FIT default parameters for five different species. FIT models contain three tunable hyperparameters: 1. The number of variables used in the stepwise forward discriminant analyses selected based on the F-Ratios; 2. The counter probability that defines the prior likelihood of trails originating from the same or from different animals; 3. The Ward's cut-off distance, predicts the number of clusters (<span style="font-style: italic;">&#8290; number of predicted animals</span>). All hyperparameters have been previously tuned for all species, and we have selected the default parameters within our experiments to assure comparability between the methods.</caption>
+  <tr>
+    <th>Species (latin name)</th>
+    <th>No. of variables</th>
+    <th>Counter probability</th>
+    <th>Wards cut-off distance</th>
+  </tr>
+  <tr>
+    <td>Amur Tiger (<span style="font-style: italic;">Panthera tigris altaica</span>)</td>
+    <td>18</td>
+    <td>0.50</td>
+    <td>1.95</td>
+  </tr>
+  <tr>
+    <td>Cheetah (<span style="font-style: italic;">Acinonyx jubatus</span>)</td>
+    <td>18</td>
+    <td>0.50</td>
+    <td>1.90</td>
+  </tr>
+  <tr>
+    <td>Giant Panda (<span style="font-style: italic;">Ailuropoda melanoleuca</span>)</td>
+    <td>12</td>
+    <td>0.50</td>
+    <td>1.50</td>
+  </tr>
+  <tr>
+    <td>Mountain Lion (<span style="font-style: italic;">Puma concolor</span>)</td>
+    <td>18</td>
+    <td>0.50</td>
+    <td>1.90</td>
+  </tr>
+  <tr>
+    <td>White Rhino (<span style="font-style: italic;">Ceratotherium simum</span>)</td>
+    <td>12</td>
+    <td>0.50</td>
+    <td>1.95</td>
+  </tr>
+  <tr>
+    <td>Cheetah (experiment 2)</td>
+    <td>18</td>
+    <td>0.50</td>
+    <td>1.90</td>
+  </tr>
+</table>
+
 ## Extract target metrics and populate raw Results table
 
