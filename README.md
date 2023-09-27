@@ -12,7 +12,7 @@ Within this repository, you will find all the datasets used in our research, alo
 
 ### FIT Pairwise Model Snippets
 
-To aid in the practical application of the FIT (Footprint Identification Technology) Pairwise model, essential code snippets are provided via Dropbox. Additionally, a comprehensive manual on how to utilize FIT is included, offering step-by-step guidance for those interested in implementing this technology.
+To aid in the practical application of the FIT (Footprint Identification Technology) Pairwise model, essential code snippets are provided via OneDrive. Additionally, a comprehensive manual on how to utilize FIT is included, offering step-by-step guidance for those interested in implementing this technology.
 
 ### Datasets
 
